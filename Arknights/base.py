@@ -358,13 +358,13 @@ class ArknightsHelper(object):
             screenshot = self.adb.get_screen_shoot()
             logger.info('离开结算画面')
             self.tap_rect(imgreco.end_operation.get_dismiss_end_operation_rect(self.viewport))
-            try:
+            #try:
                 # 掉落识别
-                drops = imgreco.end_operation.recognize(screenshot)
-                logger.info('掉落识别结果：%s', repr(drops))
-                _penguin_report(drops)
-            except Exception as e:
-                logger.error('', exc_info=True)
+                #drops = imgreco.end_operation.recognize(screenshot)
+                #logger.info('掉落识别结果：%s', repr(drops))
+                #_penguin_report(drops)
+            #except Exception as e:
+            #    logger.error('', exc_info=True)
             smobj.stop = True
 
         smobj.state = on_prepare

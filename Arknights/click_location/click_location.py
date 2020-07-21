@@ -78,16 +78,16 @@ CLICK_LOCATION = {
 
 MAP_LOCATION = {
     # 截图位置 # （X,Y） (DX,DY),
-    "BATTLE_CLICK_AI_COMMANDER": ((1055, 580), (23, 23)),
-    "ENSURE_ON_TASK_PAGE": ((1130, 576), (112, 35)),
-    "ENSURE_ON_TASK_PAGE_OCR": ((880, 82), (90, 33)),
+    "BATTLE_CLICK_AI_COMMANDER": ((1935, 878), (20, 20)),    ########  代理指挥标志
+    "ENSURE_ON_TASK_PAGE": ((2051, 873), (143, 33)),    ########  代理指挥
+    "ENSURE_ON_TASK_PAGE_OCR": ((1660, 120), (100, 40)),    ########  TW-8
     "BATTLE_INFO_BATTLE_END": ((30, 573), (375, 100)),
     "BATTLE_INFO_STRENGTH_REMAIN": ((1128, 21), (152, 33)),
     "BATTLE_INFO_LEVEL_UP": ((288, 348), (184, 58)),
     "BATTLE_INFO_LEVEL_UP_BLACK": ((827, 244), (136, 67)),
     "BATTLE_INFO_EAT_STONE": ((880, 520), (113, 37)),
     'BATTLE_DEBUG_WHEN_OCR_ERROR': ((108, 122), (114, 53)),
-    'CONSUME_STRENGTH': ((1180, 675), (50, 25)),
+    'CONSUME_STRENGTH': ((2145, 1021), (50, 25)),    ########
     "INDEX_INFO_IS_SETTING": ((268, 31), (54, 32)),
     'INDEX_INFO_IS_NOTICE': ((418, 104), (94, 32)),
     'INDEX_INFO_IS_RETURN': ((18, 20), (140, 40)),

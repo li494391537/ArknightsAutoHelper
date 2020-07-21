@@ -140,7 +140,7 @@ def check_level_up_popup(img):
 def check_end_operation(img):
     vw, vh = util.get_vwvh(img.size)
 
-    operation_end_img = img.crop((4.722 * vh, 80.278 * vh, 56.389 * vh, 93.889 * vh))
+    operation_end_img = img.crop((5.8 * vw, 80.278 * vh, 28.75 * vw, 93.889 * vh))
     operation_end_img = imgops.image_threshold(operation_end_img, 225).convert('L')
     operation_end_img = imgops.scale_to_height(operation_end_img, 24)
     return '结束' in recozh.recognize(operation_end_img)
